@@ -1,0 +1,282 @@
+body{
+    color: #8b6a8f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  color: white;
+   text-align: center; 
+   margin-bottom: 1em; 
+}
+
+
+.its-all-about-dilemmas h2{
+    color: white;
+}
+
+.gif{
+    height: 100%;
+    width: 100%;
+}
+
+.button{
+    padding: 1.3em 1.6em 1.3em 1.6em;
+    background-color: #f8c1ffca;
+    border-radius: 6em;  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  
+}
+
+nav .text-logo{
+    width: 15em;
+    height: 6em;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 3.1em;
+    list-style: none; 
+    gap: 1.5em;
+}
+
+
+nav ul :hover{
+    color: #d3a4d9;
+    transition: 300ms;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8b6a8f;
+
+}
+
+
+nav img {
+    display: flex;
+    justify-content: left;
+}
+
+
+.its-all-about-dilemmas{
+    padding: 15.6em 0em 6.2em 0em;
+    display: flex;
+    justify-content: center;
+
+}
+
+main article{
+    font-size: larger;
+    margin-left: 1.3em; 
+}
+
+
+main article p{
+    line-height: 0.8em;
+}
+
+
+nav .logo-container{
+    width: 8em;
+    height: 6em;
+}
+
+.afleveringen-logo{
+    display: flex;
+    justify-content:center;
+    height: 12.5em;
+}
+
+.aflevering6{
+
+    background-color: #d5c2d7;
+    border-radius: 3.1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 80%;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aflevering6 img{   
+    height: 15.6em;
+    width: 15.6em;
+    border-radius: 3.1em;
+    margin: 1em;
+}
+
+
+.aflevering6 h1{
+    justify-content: flex-end;
+    margin-left: 1.2em;
+}
+
+
+.aflevering6 p{
+    justify-content: center;
+    flex-direction: column; 
+    display: flex;
+    margin-left: 1.2em; 
+}
+
+
+#buttonaflevering6{
+    border-radius: 10em;
+    background-color: #d3a4d9;
+    padding: 0.6em;
+    margin-top: 0.2em; 
+}
+
+
+.buttonaflevering {
+    border-radius: 10em;
+    background-color: #d3a4d9;
+    padding: 0.6em;
+    margin-right: 0.2em;
+    transition: 500ms ease-in-out;
+    display: block;
+    width: 10em;
+    justify-content: space-around;
+}
+
+
+.buttonaflevering:hover {
+    transform: scale(1.1);
+    background-color:#d5c2d7;
+}
+
+
+.container-aflevering {
+    margin-top: 7em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.container-aflevering h2 {
+    color: white;
+    flex-basis: 100%;
+    margin-bottom: 1.25em;
+    padding: 0;
+}
+
+
+.container {
+    display: block;
+    border: 0.3em solid;
+    border-radius: 3.1em;
+    padding: 1.2em 0.6em 3.1em 0.6em;
+    width: 24%;
+    margin-bottom: 4em;
+    background-color: #8b6a8f;
+}
+
+
+.container img{
+    width: 50%;
+    border-radius: 0.6em;
+    margin-left: 5em;
+    height: 12.5em;
+}
+
+
+.container p{
+    color: beige;
+}
+
+.container h3{
+    color: beige;
+}
+
+
+.overons-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    height: 12.5em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.overons-logo img{
+    height: 8em; 
+    width: auto; 
+    display: block; 
+}
+
+.overonsDetails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    padding: 0 3.1em;
+}
+
+
+.anneke, .rosa, .julia {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 18.7em; 
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+
+.overonsDetails h2{
+    color: white;
+}
+
+.imgfoto  {
+    border-radius: 50%; 
+    height: 15.7em;
+    width: 15.7em;
+    object-fit: cover;
+    margin-bottom: 0.9em; 
+}
+
+
+.imgtext{
+    width: 12.5em;
+    height: 12.5em;
+}
+
+
+footer {
+    background-color:#d3a4d9; 
+    text-align: center; 
+    padding: 1.2em 0; 
+    width: 100%;
+    font-size: 0.8em;
+    color:#8b6a8f;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:#8b6a8f; 
+}
+
+
+
+
+
+
+
